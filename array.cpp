@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	int num[4], total = 0 , max = INT_MIN , min = INT_MIN ;
+	int num[4], total = 0 , max = INT_MIN , min = INT_MAX ;// (INT_MAX, INT_MIN) ใช้กำหนดค่าสูงสุดและต่ำสุดของ INT
 
 	string name[4];
 	for (int i = 0 ; i <= 3 ; i++)
